@@ -18,7 +18,6 @@ body {
     --bgStandard: blue;
     --bgStandard02: palegoldenrod;
     --displayFlex: flex;
-    --displayBlock: block;
     --directionCol: column;
     --justifySpaceBetween: space-between;
     --decorationNone: none;
@@ -95,7 +94,9 @@ body {
 }
 
 .section--description {
-    overflow: hidden;
+    display: var(--displayFlex);
+    flex-direction: var(--directionCol);
+    justify-content: var(--alignCenter);
     width: var(--sizeMiddle);
     height: var(--sizeFull);
     text-align: var(--alignCenter);
@@ -117,6 +118,6 @@ body {
     background-color: var(--bgStandard02);
 }
 
-.footer-section {
+.footer--section {
     text-align: var(--alignCenter);
 }
