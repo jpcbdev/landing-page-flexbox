@@ -1,26 +1,26 @@
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0%;
-    background-color: palegoldenrod;
-}
-
 :root {
     --colorStandard: white;
-    --fontStandard: italic 1.5rem tahoma;
+    --fontStandard: italic 1.0rem tahoma;
     --alignCenter: center;
     --contentHeight: 60vh;
     --sizeFull: 100%;
     --sizeMiddle: 50%;
-    --sizeMinimal: 5%;
+    --sizeMinimal: 3%;
     --marginAuto: auto;
     --marginNone: 0%;
-    --bgStandard: blue;
-    --bgStandard02: palegoldenrod;
+    --bgStandard: #3B8686;
+    --bgStandard02: #CFF09E;
     --displayFlex: flex;
     --directionCol: column;
     --justifySpaceBetween: space-between;
     --decorationNone: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    background-color: var(--bgStandard02)
 }
 
 .container {
